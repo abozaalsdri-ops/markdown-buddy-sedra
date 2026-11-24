@@ -14,7 +14,7 @@ Use the sample sales data to generate a summary of sales by product.
 
 
 
-\## AI Assistance Disclosure
+## AI Assistance Disclosure
 
 
 
