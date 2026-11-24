@@ -1,0 +1,24 @@
+---
+title: "Store Sales Analysis"
+output: html_document
+---
+
+## Purpose
+
+This project uses synthetic sales data to calculate total sales for each product.
+
+## How the script works
+
+1. `data.frame()` creates a table with product names and sales amounts. Each row represents one sale.
+2. `aggregate()` groups the rows by product and adds the sales amounts in each group.
+3. `print()` displays the totals.
+
+## Run the script
+
+```{r}
+source("sales_analysis.R")
+```
+
+## Results
+
+The expected totals are 30 for Notebook, 12 for Pen, and 10 for Folder. Notebook has the highest total sales.
